@@ -1,0 +1,364 @@
+.page-content .container .page-wrapper .page-title {
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  color: #000000;
+  margin: 45px 0 25px;
+}
+.page-content .container .page-wrapper p {
+  font-family: "TT Norms Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  color: #828282;
+}
+.page-content .container .page-wrapper .href-box {
+  display: flex;
+  align-items: center;
+  margin: 45px 0 60px;
+}
+.page-content .container .page-wrapper .href-box .green-btn {
+  font-family: "TT Norms Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  background: #00ac4e;
+  border-radius: 6.90493px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 38px;
+  margin-right: 60px;
+}
+.page-content .container .page-wrapper .href-box .default-link {
+  font-family: "TT Norms Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22.2162px;
+  line-height: 29px;
+  text-align: center;
+  color: #00ac4e;
+}
+.page-content .container .page-wrapper .href-box .default-link img {
+  margin-left: 9px;
+  position: relative;
+  top: 7px;
+}
+.page-content .container .page-wrapper .form-support form {
+  max-width: 672px;
+}
+.page-content .container .page-wrapper .form-support form textarea {
+  width: 100%;
+  height: 174px;
+  background: #f9f9f9;
+  border-radius: 5px;
+  padding: 17px 0 0 20px;
+  margin: 25px 0 37px;
+}
+.page-content .container .page-wrapper .form-support form button {
+  font-family: "TT Norms Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18.7606px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  width: 189.23px;
+  height: 60px;
+  background: #00ac4e;
+  border-radius: 7.8169px;
+  margin-bottom: 250px;
+}
+.page-content .container .page-vacancy-wrapper {
+  width: 70%;
+}
+.page-content .container .page-vacancy-wrapper .page-title {
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  color: #000000;
+  margin: 43px 0px;
+}
+.page-content .container .page-vacancy-wrapper .page-subtitle {
+  font-family: "TT Norms Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin: 28px 0 24px;
+}
+.page-content .container .page-vacancy-wrapper p {
+  font-family: "TT Norms Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333333;
+}
+.page-content .container .page-vacancy-wrapper p b {
+  font-weight: 500;
+}
+.page-content .container .page-vacancy-wrapper p + p {
+  margin-top: 25px;
+}
+.page-content .container .page-vacancy-wrapper .href-box {
+  display: flex;
+  align-items: center;
+  margin: 45px 0 60px;
+}
+.page-content .container .page-vacancy-wrapper .href-box .green-btn {
+  font-family: "TT Norms Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  background: #00ac4e;
+  border-radius: 6.90493px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 38px;
+  margin-right: 60px;
+}
+.page-content .container .page-vacancy-wrapper .href-box .default-link {
+  font-family: "TT Norms Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22.2162px;
+  line-height: 29px;
+  text-align: center;
+  color: #00ac4e;
+}
+.page-content .container .page-vacancy-wrapper .href-box .default-link img {
+  margin-left: 9px;
+  position: relative;
+  top: 7px;
+}
+@media only screen and (max-width: 1199px) {
+  .page-content .container .page-vacancy-wrapper {
+    width: 70%;
+  }
+  .page-content .container .page-vacancy-wrapper .page-title {
+    font-size: 24px;
+    line-height: 29px;
+    margin: 30px 0px;
+  }
+  .page-content .container .page-vacancy-wrapper .page-subtitle {
+    font-size: 20px;
+    line-height: 29px;
+    margin: 25px 0 20px;
+  }
+  .page-content .container .page-vacancy-wrapper p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .page-content .container .page-vacancy-wrapper p + p {
+    margin-top: 20px;
+  }
+  .page-content .container .page-vacancy-wrapper .href-box {
+    display: flex;
+    align-items: center;
+    margin: 35px 0 50px;
+  }
+  .page-content .container .page-vacancy-wrapper .href-box .green-btn {
+    font-size: 18px;
+    line-height: 21px;
+    border-radius: 6px;
+    padding: 13px 30px;
+    margin-right: 50px;
+  }
+  .page-content .container .page-vacancy-wrapper .href-box .default-link {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .page-content .container .page-vacancy-wrapper .href-box .default-link img {
+    margin-left: 9px;
+    top: 7px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .page-content .container .page-vacancy-wrapper {
+    width: 80%;
+  }
+  .page-content .container .page-vacancy-wrapper .page-title {
+    font-size: 22px;
+    line-height: 27px;
+    margin: 30px 0px;
+  }
+  .page-content .container .page-vacancy-wrapper .page-subtitle {
+    font-size: 18px;
+    line-height: 25px;
+    margin: 25px 0 20px;
+  }
+  .page-content .container .page-vacancy-wrapper p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .page-content .container .page-vacancy-wrapper p + p {
+    margin-top: 15px;
+  }
+  .page-content .container .page-vacancy-wrapper .href-box {
+    margin: 30px 0 50px;
+  }
+  .page-content .container .page-vacancy-wrapper .href-box .green-btn {
+    font-size: 16px;
+    line-height: 21px;
+    border-radius: 6px;
+    padding: 13px 30px;
+    margin-right: 50px;
+  }
+  .page-content .container .page-vacancy-wrapper .href-box .default-link {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .page-content .container .page-vacancy-wrapper .href-box .default-link img {
+    margin-left: 9px;
+    top: 7px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .page-content .container .page-vacancy-wrapper {
+    width: 100%;
+  }
+  .page-content .container .page-vacancy-wrapper .page-title {
+    font-size: 20px;
+    line-height: 25px;
+    margin: 20px 0px;
+  }
+  .page-content .container .page-vacancy-wrapper .page-subtitle {
+    font-size: 16px;
+    line-height: 21px;
+    margin: 20px 0 10px;
+  }
+  .page-content .container .page-vacancy-wrapper p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .page-content .container .page-vacancy-wrapper p + p {
+    margin-top: 10px;
+  }
+  .page-content .container .page-vacancy-wrapper .href-box {
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0 30px;
+  }
+  .page-content .container .page-vacancy-wrapper .href-box .green-btn {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 9px 20px;
+    border-radius: 5px;
+  }
+  .page-content .container .page-vacancy-wrapper .href-box .default-link {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .page-content .container .page-vacancy-wrapper .href-box .default-link img {
+    top: 1px;
+    width: 15px;
+    height: 12px;
+    left: -5px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .page-content {
+    padding-top: 50px;
+  }
+  .page-content .container .page-wrapper .page-title {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 12px;
+  }
+  .page-content .container .page-wrapper p {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .page-content .container .page-wrapper .form-support form textarea {
+    height: 160px;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 17px 0 0 20px;
+    margin: 15px 0 25px;
+  }
+  .page-content .container .page-wrapper .form-support form button {
+    font-size: 14px;
+    line-height: 18px;
+    width: 120px;
+    height: 45px;
+    margin-bottom: 25px;
+  }
+  .page-content .container .page-wrapper .href-box {
+    margin: 35px 0 40px;
+  }
+  .page-content .container .page-wrapper .href-box .green-btn {
+    font-size: 16px;
+    line-height: 18px;
+    padding: 13px 32px;
+  }
+  .page-content .container .page-wrapper .href-box .default-link {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .page-content .container .page-wrapper .href-box .default-link img {
+    top: 2px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .page-content .container .page-wrapper {
+    padding-top: 0px;
+  }
+  .page-content .container .page-wrapper .page-title {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 12px;
+  }
+  .page-content .container .page-wrapper p {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .page-content .container .page-wrapper .form-support form textarea {
+    height: 150px;
+    font-size: 12px;
+    line-height: 21px;
+    padding: 17px 0 0 20px;
+    margin: 10px 0 20px;
+  }
+  .page-content .container .page-wrapper .form-support form button {
+    font-size: 12px;
+    line-height: 15px;
+    width: 110px;
+    height: 40px;
+    margin-bottom: 25px;
+  }
+  .page-content .container .page-wrapper .href-box {
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0 30px;
+  }
+  .page-content .container .page-wrapper .href-box .green-btn {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 9px 20px;
+    border-radius: 5px;
+  }
+  .page-content .container .page-wrapper .href-box .default-link {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .page-content .container .page-wrapper .href-box .default-link img {
+    top: 1px;
+    width: 15px;
+    height: 12px;
+    left: -5px;
+  }
+}

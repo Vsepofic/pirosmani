@@ -1,0 +1,995 @@
+.card-product .container .card-wrapper .card-info {
+  display: flex;
+  justify-content: space-between;
+}
+.card-product .container .card-wrapper .card-info .card-top {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+}
+.card-product .container .card-wrapper .card-info .card-top h1 {
+  font-family: "TT Norms Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 50px;
+  color: #333333;
+  margin: 40px 0 25px;
+}
+.card-product .container .card-wrapper .card-info .card-top .sub-title {
+  font-family: "TT Norms Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 0.701612px solid #ebebeb;
+  border-bottom: 0.701612px solid #ebebeb;
+}
+.card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-left {
+  display: flex;
+  align-items: center;
+}
+.card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-left .card-product-remove {
+  width: 16.84px;
+  height: 16.84px;
+  margin-right: 25px;
+}
+.card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-left .card-product-img {
+  width: 77.88px;
+  height: 57.53px;
+  background: #00ac4e;
+  border-radius: 3.50806px;
+  margin: 15px 25px 15px 0;
+}
+.card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-left .card-product-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 3.50806px;
+}
+.card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-left .card-product-name {
+  font-family: "TT Norms Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.9362px;
+  line-height: 15px;
+  color: #000000;
+  margin-right: 65px;
+}
+.card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right {
+  display: flex;
+  align-items: center;
+}
+.card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-toggle .input-range {
+  width: 116.57px;
+  height: 42.47px;
+  background: #fcfcfc;
+  border: 0.903636px solid #ebebeb;
+  box-sizing: border-box;
+  border-radius: 9.03636px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-toggle .input-range::after {
+  content: attr(data-desc);
+  position: absolute;
+  bottom: -18px;
+  right: 0;
+  font-family: "TT Norms Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  color: #c6c6c6;
+}
+.card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-toggle .input-range span {
+  width: 30%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-toggle .input-range span.minus img {
+  width: 10px;
+  height: 10px;
+}
+.card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-toggle .input-range span.plus img {
+  width: 12.65px;
+  height: 12.65px;
+}
+.card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-toggle .input-range input {
+  width: 40%;
+  text-align: center;
+  border: none;
+  background: none;
+}
+.card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-price {
+  font-family: TT Norms Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19.9203px;
+  line-height: 17px;
+  color: #000000;
+  margin: 0 10px 0 45px;
+}
+.card-product .container .card-wrapper .card-info .card-top .card-sum {
+  margin-top: auto;
+  margin-bottom: 60px;
+}
+.card-product .container .card-wrapper .card-info .card-top .card-sum .button-line .form-1 {
+  font-family: "TT Norms Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.6903px;
+  line-height: 11px;
+  color: #828282;
+  height: 32.32px;
+  border-radius: 8px;
+  padding: 10px 25px;
+  margin-right: 20px;
+  margin-bottom: 8px;
+}
+.card-product .container .card-wrapper .card-info .card-top .card-sum .button-line .form-1.active {
+  background: #00ac4e;
+  color: white;
+}
+.card-product .container .card-wrapper .card-info .card-top .card-sum .button-line .form-2 {
+  font-family: "TT Norms Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.6903px;
+  line-height: 11px;
+  color: #828282;
+  height: 32.32px;
+  border-radius: 8px;
+  padding: 10px 25px;
+  margin-right: 20px;
+  margin-bottom: 8px;
+}
+.card-product .container .card-wrapper .card-info .card-top .card-sum .button-line .form-2.active {
+  background: #00ac4e;
+  color: white;
+}
+.card-product .container .card-wrapper .card-info .card-top .card-sum .block-info {
+  background: #ffffff;
+  box-shadow: 0px 0px 28.763px rgba(0, 0, 0, 0.06);
+  border-radius: 9.58767px;
+  padding: 35px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .left-info {
+  width: 66.66%;
+}
+.card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .left-info .line-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .left-info .line-info span {
+  font-family: "TT Norms Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.0516px;
+  line-height: 20px;
+  color: #000000;
+  display: inline-block;
+}
+.card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .left-info .line-info b {
+  font-family: "TT Norms Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.0516px;
+  line-height: 20px;
+  text-align: right;
+  color: #000000;
+  display: inline-block;
+  margin-right: 100px;
+  margin-left: auto;
+}
+.card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .left-info .line-info b.line-green {
+  color: #00ac4e;
+}
+.card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .right-info {
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  width: 33.33%;
+}
+.card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .right-info span {
+  font-family: "TT Norms Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.3403px;
+  line-height: 23px;
+  color: #000000;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .right-info b {
+  font-family: "TT Norms Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19.1753px;
+  line-height: 24px;
+  color: #000000;
+  display: inline-block;
+}
+@media only screen and (max-width: 1199px) {
+  .card-product .container .card-wrapper .card-info .card-top {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+  }
+  .card-product .container .card-wrapper .card-info .card-top h1 {
+    font-size: 24px;
+    line-height: 40px;
+    margin: 30px 0 20px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .sub-title {
+    font-size: 22px;
+    line-height: 20px;
+    margin-bottom: 15px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item {
+    border-top: 0.701612px solid #ebebeb;
+    border-bottom: 0.701612px solid #ebebeb;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-left .card-product-remove {
+    width: 16.84px;
+    height: 16.84px;
+    margin-right: 20px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-left .card-product-img {
+    width: 75px;
+    height: 55px;
+    border-radius: 3px;
+    margin: 15px 25px 15px 0;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-left .card-product-img img {
+    border-radius: 3px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-left .card-product-name {
+    font-size: 15.9362px;
+    line-height: 15px;
+    margin-right: 0;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-toggle .input-range {
+    width: 100px;
+    height: 40px;
+    border: 0.9px solid #ebebeb;
+    border-radius: 9px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-toggle .input-range::after {
+    content: attr(data-desc);
+    position: absolute;
+    bottom: -18px;
+    right: 0;
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-toggle .input-range span {
+    cursor: pointer;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-toggle .input-range span.minus img {
+    width: 10px;
+    height: 10px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-toggle .input-range span.plus img {
+    width: 12px;
+    height: 12px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-toggle .input-range input {
+    width: 40%;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-price {
+    font-size: 18px;
+    line-height: 17px;
+    margin: 0 10px 0 25px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum {
+    margin-top: auto;
+    margin-bottom: 50px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .button-line .form-1 {
+    font-size: 14px;
+    line-height: 11px;
+    height: 32px;
+    border-radius: 7px;
+    padding: 10px 25px;
+    margin-right: 20px;
+    margin-bottom: 8px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .button-line .form-2 {
+    font-size: 14px;
+    line-height: 11px;
+    height: 32px;
+    border-radius: 7px;
+    padding: 10px 25px;
+    margin-right: 20px;
+    margin-bottom: 8px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .block-info {
+    border-radius: 9px;
+    padding: 20px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .left-info {
+    width: 66.66%;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .left-info .line-info {
+    margin-bottom: 15px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .left-info .line-info span {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .left-info .line-info b {
+    font-size: 13px;
+    line-height: 20px;
+    margin-right: 80px;
+    margin-left: auto;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .right-info {
+    width: 33.33%;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .right-info span {
+    font-size: 15px;
+    line-height: 23px;
+    margin-bottom: 5px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .right-info b {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .card-product .container .card-wrapper .card-info .card-top {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top h1 {
+    font-size: 20px;
+    line-height: 40px;
+    margin: 30px 0 20px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .sub-title {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 15px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item {
+    border-top: 0.7px solid #ebebeb;
+    border-bottom: 0.7px solid #ebebeb;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-left .card-product-remove {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-left .card-product-img {
+    width: 65px;
+    height: 45px;
+    border-radius: 3px;
+    margin: 10px 15px 10px 0;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-left .card-product-img img {
+    border-radius: 3px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-left .card-product-name {
+    font-size: 12px;
+    line-height: 15px;
+    margin-right: 0;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-toggle .input-range {
+    width: 70px;
+    height: 35px;
+    border: 0.9px solid #ebebeb;
+    border-radius: 7px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-toggle .input-range::after {
+    content: attr(data-desc);
+    position: absolute;
+    bottom: -13px;
+    right: 0;
+    font-size: 8px;
+    line-height: 12px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-toggle .input-range span {
+    cursor: pointer;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-toggle .input-range span.minus img {
+    width: 8px;
+    height: 8px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-toggle .input-range span.plus img {
+    width: 10px;
+    height: 10px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-toggle .input-range input {
+    width: 40%;
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-price {
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0 10px 0 15px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum {
+    margin-top: auto;
+    margin-bottom: 40px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .button-line .form-1 {
+    font-size: 12px;
+    line-height: 11px;
+    height: 32px;
+    border-radius: 7px;
+    padding: 10px 15px;
+    margin-right: 0px;
+    margin-bottom: 8px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .button-line .form-2 {
+    font-size: 12px;
+    line-height: 11px;
+    height: 32px;
+    border-radius: 7px;
+    padding: 10px 15px;
+    margin-right: 0px;
+    margin-bottom: 8px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .block-info {
+    border-radius: 8px;
+    padding: 15px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .left-info {
+    width: 66.66%;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .left-info .line-info {
+    margin-bottom: 15px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .left-info .line-info span {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .left-info .line-info b {
+    font-size: 12px;
+    line-height: 20px;
+    margin-right: 80px;
+    margin-left: auto;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .right-info {
+    width: 33.33%;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .right-info span {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 5px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .right-info b {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .card-product .container .card-wrapper .card-info .card-top {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top h1 {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 30px 0 15px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .sub-title {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 15px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items {
+    margin-bottom: 20px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-left .card-product-remove {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-left .card-product-img {
+    width: 65px;
+    height: 45px;
+    border-radius: 3px;
+    margin: 10px 15px 10px 0;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-left .card-product-img img {
+    border-radius: 3px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-left .card-product-name {
+    font-size: 12px;
+    line-height: 15px;
+    margin-right: 0;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-toggle .input-range {
+    width: 70px;
+    height: 35px;
+    border: 0.9px solid #ebebeb;
+    border-radius: 7px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-toggle .input-range::after {
+    content: attr(data-desc);
+    position: absolute;
+    bottom: -13px;
+    right: 0;
+    font-size: 8px;
+    line-height: 12px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-toggle .input-range span {
+    cursor: pointer;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-toggle .input-range span.minus img {
+    width: 8px;
+    height: 8px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-toggle .input-range span.plus img {
+    width: 10px;
+    height: 10px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-toggle .input-range input {
+    width: 40%;
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-price {
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0 10px 0 15px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum {
+    margin-top: auto;
+    margin-bottom: 20px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .button-line .form-1 {
+    font-size: 12px;
+    line-height: 11px;
+    height: 32px;
+    border-radius: 7px;
+    padding: 10px 15px;
+    margin-right: 0px;
+    margin-bottom: 8px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .button-line .form-2 {
+    font-size: 12px;
+    line-height: 11px;
+    height: 32px;
+    border-radius: 7px;
+    padding: 10px 15px;
+    margin-right: 0px;
+    margin-bottom: 8px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .block-info {
+    border-radius: 8px;
+    padding: 15px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .left-info {
+    width: 66.66%;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .left-info .line-info {
+    margin-bottom: 15px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .left-info .line-info span {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .left-info .line-info b {
+    font-size: 12px;
+    line-height: 20px;
+    margin-right: 100px;
+    margin-left: auto;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .right-info {
+    width: 33.33%;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .right-info span {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 5px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .right-info b {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .card-product .container .card-wrapper .card-info .card-top {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top h1 {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 30px 0 15px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .sub-title {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items {
+    margin-bottom: 20px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-left .card-product-remove {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-left .card-product-img {
+    width: 50px;
+    height: 38px;
+    border-radius: 3px;
+    margin: 5px 10px 5px 0;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-left .card-product-img img {
+    border-radius: 3px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-left .card-product-name {
+    font-size: 10px;
+    line-height: 15px;
+    margin-right: 0;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-toggle .input-range {
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-toggle .input-range::after {
+    content: attr(data-desc);
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    font-size: 7px;
+    line-height: 10px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-toggle .input-range span {
+    cursor: pointer;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-toggle .input-range span.minus img {
+    width: 7px;
+    height: 7px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-toggle .input-range span.plus img {
+    width: 9px;
+    height: 9px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-toggle .input-range input {
+    width: 40%;
+    font-size: 9px;
+    line-height: 13px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-product-items .card-product-item .card-product-right .card-product-price {
+    font-size: 12px;
+    line-height: 17px;
+    margin: 0 5px 0 10px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum {
+    margin-top: auto;
+    margin-bottom: 20px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .button-line .form-1 {
+    font-size: 10px;
+    line-height: 10px;
+    height: 30px;
+    border-radius: 7px;
+    padding: 8px 12px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .button-line .form-2 {
+    font-size: 10px;
+    line-height: 10px;
+    height: 30px;
+    border-radius: 7px;
+    padding: 8px 12px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .block-info {
+    border-radius: 7px;
+    padding: 15px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .left-info {
+    width: 66.66%;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .left-info .line-info {
+    margin-bottom: 15px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .left-info .line-info span {
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .left-info .line-info b {
+    font-size: 10px;
+    line-height: 20px;
+    margin-right: 60px;
+    margin-left: auto;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .right-info {
+    width: 33.33%;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .right-info span {
+    font-size: 11px;
+    line-height: 20px;
+    margin-bottom: 5px;
+  }
+  .card-product .container .card-wrapper .card-info .card-top .card-sum .block-info .right-info b {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+.card-product .container .card-wrapper .card-info .card-sidebar {
+  width: 48%;
+  margin: 40px 0 60px;
+}
+.card-product .container .card-wrapper .card-info .card-sidebar form.mt-148 {
+  margin-top: 148px;
+}
+.card-product .container .card-wrapper .card-info .card-sidebar form .form-line .label {
+  font-family: "TT Norms Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.6716px;
+  line-height: 24px;
+  color: #000000;
+}
+.card-product .container .card-wrapper .card-info .card-sidebar form .form-line .label.active {
+  font-family: "TT Norms Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17.0726px;
+  line-height: 24px;
+  color: #00ac4e;
+}
+.card-product .container .card-wrapper .card-info .card-sidebar form .form-line .label.label-1 {
+  cursor: pointer;
+}
+.card-product .container .card-wrapper .card-info .card-sidebar form .form-line input {
+  width: 100%;
+  height: 55px;
+  background: #fcfcfc;
+  border: 1.1194px solid #ebebeb;
+  box-sizing: border-box;
+  border-radius: 7.11356px;
+  font-family: "TT Norms Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.6716px;
+  line-height: 55px;
+  color: #c6c6c6;
+  padding: 0 29px;
+  margin: 4px 0 18px;
+}
+.card-product .container .card-wrapper .card-info .card-sidebar form .form-line select {
+  width: 100%;
+  height: 55px;
+  background: #fcfcfc;
+  border: 1.1194px solid #ebebeb;
+  box-sizing: border-box;
+  border-radius: 7.11356px;
+  font-family: "TT Norms Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.6716px;
+  line-height: 55px;
+  color: #c6c6c6;
+  padding: 0 29px;
+  margin: 4px 0 18px;
+}
+.card-product .container .card-wrapper .card-info .card-sidebar form button {
+  font-family: "TT Norms Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.6716px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  width: 183.58px;
+  height: 58.21px;
+  background: #00ac4e;
+  border-radius: 5.59701px;
+  padding: 17px 32px;
+  margin-top: 25px;
+}
+@media only screen and (max-width: 1199px) {
+  .card-product .container .card-wrapper .card-info .card-sidebar {
+    width: 48%;
+    margin: 30px 0 50px;
+  }
+  .card-product .container .card-wrapper .card-info .card-sidebar form.mt-148 {
+    margin-top: 140px;
+  }
+  .card-product .container .card-wrapper .card-info .card-sidebar form .form-line .label {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .card-product .container .card-wrapper .card-info .card-sidebar form .form-line .label.active {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .card-product .container .card-wrapper .card-info .card-sidebar form .form-line input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ebebeb;
+    border-radius: 7px;
+    font-size: 14px;
+    line-height: 50px;
+    padding: 0 20px;
+    margin: 4px 0 18px;
+  }
+  .card-product .container .card-wrapper .card-info .card-sidebar form .form-line select {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ebebeb;
+    border-radius: 7px;
+    font-size: 14px;
+    line-height: 50px;
+    padding: 0 20px;
+    margin: 4px 0 18px;
+  }
+  .card-product .container .card-wrapper .card-info .card-sidebar form button {
+    font-size: 14px;
+    line-height: 24px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 25px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .card-product .container .card-wrapper .card-info .card-sidebar {
+    width: 48%;
+    margin: 80px 0 50px;
+  }
+  .card-product .container .card-wrapper .card-info .card-sidebar form.mt-148 {
+    margin-top: 120px;
+  }
+  .card-product .container .card-wrapper .card-info .card-sidebar form .form-line .label {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .card-product .container .card-wrapper .card-info .card-sidebar form .form-line .label.active {
+    font-size: 12px;
+    line-height: 24px;
+  }
+  .card-product .container .card-wrapper .card-info .card-sidebar form .form-line input {
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 11px;
+    line-height: 40px;
+    padding: 0 15px;
+    margin: 4px 0 15px;
+  }
+  .card-product .container .card-wrapper .card-info .card-sidebar form .form-line select {
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 11px;
+    line-height: 40px;
+    padding: 0 15px;
+    margin: 4px 0 15px;
+  }
+  .card-product .container .card-wrapper .card-info .card-sidebar form button {
+    font-size: 12px;
+    line-height: 20px;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .card-product .container .card-wrapper .card-info .card-sidebar {
+    width: 100%;
+    margin: 0px 0 20px;
+  }
+  .card-product .container .card-wrapper .card-info .card-sidebar form.mt-148 {
+    margin-top: 0px;
+  }
+  .card-product .container .card-wrapper .card-info .card-sidebar form .form-line .label {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .card-product .container .card-wrapper .card-info .card-sidebar form .form-line .label.active {
+    font-size: 12px;
+    line-height: 24px;
+  }
+  .card-product .container .card-wrapper .card-info .card-sidebar form .form-line input {
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 10px;
+    line-height: 40px;
+    padding: 0 15px;
+    margin: 4px 0 15px;
+  }
+  .card-product .container .card-wrapper .card-info .card-sidebar form .form-line select {
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 10px;
+    line-height: 40px;
+    padding: 0 15px;
+    margin: 4px 0 15px;
+  }
+  .card-product .container .card-wrapper .card-info .card-sidebar form button {
+    font-size: 11px;
+    line-height: 20px;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 15px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .card-product .container .card-wrapper .card-info .card-sidebar {
+    width: 100%;
+    margin: 0px 0 20px;
+  }
+  .card-product .container .card-wrapper .card-info .card-sidebar form.mt-148 {
+    margin-top: 0px;
+  }
+  .card-product .container .card-wrapper .card-info .card-sidebar form .form-line .label {
+    font-size: 11px;
+    line-height: 20px;
+  }
+  .card-product .container .card-wrapper .card-info .card-sidebar form .form-line .label.active {
+    font-size: 11px;
+    line-height: 24px;
+  }
+  .card-product .container .card-wrapper .card-info .card-sidebar form .form-line input {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 10px;
+    line-height: 35px;
+    padding: 0 10px;
+    margin: 0 0 10px;
+  }
+  .card-product .container .card-wrapper .card-info .card-sidebar form .form-line select {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 10px;
+    line-height: 35px;
+    padding: 0 10px;
+    margin: 0 0 10px;
+  }
+  .card-product .container .card-wrapper .card-info .card-sidebar form button {
+    font-size: 10px;
+    line-height: 20px;
+    width: 110px;
+    height: 32px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .card-product .container .card-wrapper .card-info {
+    flex-direction: column;
+  }
+}
